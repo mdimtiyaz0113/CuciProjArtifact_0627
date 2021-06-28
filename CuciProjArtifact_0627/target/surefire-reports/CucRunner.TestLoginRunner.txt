@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: CucRunner.TestLoginRunner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 29.439 sec <<< FAILURE!
+Then user logs in successfully and get a success message(Scenario: To validate login to amazon website as Authenticated User)  Time elapsed: 0.006 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Amazon Sign In]> but was:<[My Title]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at CucStepDef.TestloginStepDef.user_logs_in_successfully_and_get_a_success_message(TestloginStepDef.java:57)
+	at ?.Then user logs in successfully and get a success message(Testlogin.feature:8)
+
+Scenario: To validate login to amazon website as Authenticated User  Time elapsed: 0.008 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Amazon Sign In]> but was:<[My Title]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at CucStepDef.TestloginStepDef.user_logs_in_successfully_and_get_a_success_message(TestloginStepDef.java:57)
+	at ?.Then user logs in successfully and get a success message(Testlogin.feature:8)
+
